@@ -24,7 +24,7 @@
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.5",
-    "mui-scroll-button": "^0.1.2",
+    "mui-scroll-button": "^0.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
