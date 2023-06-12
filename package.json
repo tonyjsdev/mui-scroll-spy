@@ -18,11 +18,15 @@
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
     "prepare": "husky install && npm run build",
     "prepublishOnly": "npm test && npm run prettier && npm run lint",
-    "release": "standard-version",
+    "release": "HUSKY_SKIP_HOOKS=1 standard-version",
     "test": "",
     "commit": "cz"
   },
-  "author": "Antonio PAcheco",
+  "author": "Antonio Pacheco",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonyjsdev/mui-scroll-spy"
+  },
   "license": "MIT",
   "dependencies": {
     "react-scroll": "^1.8.9"
