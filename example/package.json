@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
+    "parcel": "^2.9.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.5",
+    "mui-scroll-button": "^0.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
