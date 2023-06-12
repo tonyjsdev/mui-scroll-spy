@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/tonyjsdev/mui-scroll-spy/compare/v0.1.6...v0.1.7) (2023-06-12)
+
+
+### Features
+
+* **scrollsmooth:** add smooth property for scrolling on click ([3ba56df](https://github.com/tonyjsdev/mui-scroll-spy/commit/3ba56df6bf7e78d749c50cbc0b520aa496538a3f))
+
 ### [0.1.6](https://github.com/tonyjsdev/mui-scroll-spy/compare/v0.1.5...v0.1.6) (2023-06-12)
 
 ### [0.1.5](https://github.com/tonyjsdev/mui-scroll-spy/compare/v0.1.4...v0.1.5) (2023-06-12)
