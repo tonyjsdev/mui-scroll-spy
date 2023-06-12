@@ -22,12 +22,14 @@ import { Button, Element } from "mui-scroll-spy";
 
 <Button activeStyle={{ border: "1px solid black" }}
         to="first"
+        smooth={true}
         offset={-68}
 >
     menu 1
 </Button>
 <Button activeStyle={{ border: "1px solid black" }}
         to="second"
+        smooth={true}
         offset={-68}
 >
     menu 2

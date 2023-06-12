@@ -13,6 +13,8 @@ export interface ButtonProps extends MuiButtonProps {
   duration?: number;
   /* Make Link selected when scroll is at its targets position   */
   spy?: boolean;
+  /* Animate the scrolling */
+  smooth?: boolean;
 }
 
 const Button = (props: ButtonProps) => {

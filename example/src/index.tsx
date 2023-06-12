@@ -1,4 +1,4 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 import ReactDOM from "react-dom/client";
 import { Element, Button } from "mui-scroll-button";
 import { AppBar, Box } from "@mui/material";
@@ -6,6 +6,14 @@ import { AppBar, Box } from "@mui/material";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
+const baseStyle: CSSProperties = {
+  height: "100vh",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+};
+
 root.render(
   <React.StrictMode>
     <AppBar position="fixed">
@@ -13,40 +21,62 @@ root.render(
         <Button
           sx={{ my: 2, color: "white", display: "block" }}
           activeStyle={{ border: "1px solid black" }}
-          to="first"
+          to="blue"
           spy={true}
+          smooth={true}
           offset={-68}
         >
-          menu 1{/* <Typography variant="h6">menu 1</Typography> */}
+          Blue
         </Button>
         <Button
           sx={{ my: 2, color: "white", display: "block" }}
           activeStyle={{ border: "1px solid black" }}
-          to="second"
+          to="green"
           spy={true}
+          smooth={true}
           offset={-68}
         >
-          menu 2
+          Green
         </Button>
         <Button
           sx={{ my: 2, color: "white", display: "block" }}
           activeStyle={{ border: "1px solid black" }}
-          to="third"
+          to="red"
           spy={true}
+          smooth={true}
+          another={true}
           offset={-68}
         >
-          menu 3
+          Red
         </Button>
       </Box>
     </AppBar>
-    <Element name="first" style={{ height: "1300px" }}>
-      First
+    <Element
+      name="blue"
+      style={{
+        ...baseStyle,
+        backgroundColor: "blue",
+      }}
+    >
+      Blue
     </Element>
-    <Element name="second" style={{ height: "1300px" }}>
-      Second
+    <Element
+      name="green"
+      style={{
+        ...baseStyle,
+        backgroundColor: "green",
+      }}
+    >
+      Green
     </Element>
-    <Element name="third" style={{ height: "1300px" }}>
-      Third
+    <Element
+      name="red"
+      style={{
+        ...baseStyle,
+        backgroundColor: "red",
+      }}
+    >
+      Red
     </Element>
   </React.StrictMode>
 );
