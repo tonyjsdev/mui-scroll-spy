@@ -1,5 +1,10 @@
 # mui-scroll-button
 
+[![NPM version][npm-image]][npm-url]
+[![Build][github-build]][github-build-url]
+![npm-typescript]
+[![License][github-license]][github-license-url]
+
 extended [react-scroll](https://github.com/fisshy/react-scroll) to be used on material-ui Button Element
 
 ## installation
@@ -51,3 +56,11 @@ Besides all the normal Button from MUI properties
 - duration: number - duration of animation of the scroll
 - spy: boolean (optional) - Make Button selected when scroll is at its targets position
 - activeStyle: CSSProperties (optional) - Style applied when element is reached (needs spy to be true to work)
+
+[npm-url]: https://www.npmjs.com/package/mui-scroll-button
+[npm-image]: https://img.shields.io/npm/v/mui-scroll-button
+[github-license]: https://img.shields.io/github/license/tonyjsdev/mui-scroll-spy
+[github-license-url]: https://github.com/tonyjsdev/mui-scroll-spy/blob/master/LICENSE
+[github-build]: https://github.com/tonyjsdev/mui-scroll-spy/actions/workflows/publish.yml/badge.svg
+[github-build-url]: https://github.com//tonyjsdev/mui-scroll-spy/actions/workflows/publish.yml
+[npm-typescript]: https://img.shields.io/npm/types/mui-scroll-button
